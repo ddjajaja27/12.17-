@@ -1,0 +1,70 @@
+{
+  "M": {
+    "count": 12,
+    "words": [
+      "analysis",
+      "study",
+      "results",
+      "method",
+      "conclusion",
+      "data",
+      "using",
+      "performed",
+      "evaluated",
+      "aim",
+      "background",
+      "investigated"
+    ]
+  },
+  "S": {
+    "count": 14,
+    "words": [
+      "significant",
+      "significantly",
+      "increased",
+      "decreased",
+      "higher",
+      "lower",
+      "compared",
+      "group",
+      "rate",
+      "ratio",
+      "value",
+      "associated",
+      "difference",
+      "respectively"
+    ]
+  },
+  "B": {
+    "count": 14,
+    "words": [
+      "clinical",
+      "patient",
+      "patients",
+      "treatment",
+      "disease",
+      "infection",
+      "cases",
+      "years",
+      "time",
+      "effect",
+      "various",
+      "regarding",
+      "reported",
+      "recent"
+    ]
+  },
+  "Anatomy": {
+    "count": 8,
+    "words": [
+      "gastric",
+      "stomach",
+      "mucosa",
+      "biopsy",
+      "human",
+      "tissue",
+      "samples",
+      "specimens"
+    ]
+  }
+}

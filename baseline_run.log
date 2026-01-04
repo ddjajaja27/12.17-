@@ -1,0 +1,40 @@
+2025-12-28 20:52:55,728 [INFO] 加载文档...
+2025-12-28 20:52:56,023 [INFO] 加载的列: ['PMID', 'Title', 'Abstract', 'Year', 'Journal']
+2025-12-28 20:52:56,024 [INFO] 加载了 31617 个文档
+2025-12-28 20:52:56,025 [INFO] 
+======================================================================
+2025-12-28 20:52:56,025 [INFO] 处理版本: baseline
+2025-12-28 20:52:56,025 [INFO] ======================================================================
+2025-12-28 20:52:56,233 [INFO] [baseline] 加载向量: shape=(31617, 384)
+2025-12-28 20:52:56,233 [INFO] [baseline] 开始 BERTopic 聚类...
+2025-12-28 20:52:56,233 [INFO] [baseline] 尝试 HDBSCAN min_cluster_size=20
+2025-12-28 20:52:56,233 [INFO] [baseline] 拟合 BERTopic...
+2025-12-28 20:52:56,238 [INFO] Use pytorch device_name: cpu
+2025-12-28 20:52:56,238 [INFO] Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-12-28 20:53:03,597 - BERTopic - Dimensionality - Fitting the dimensionality reduction algorithm
+2025-12-28 20:53:34,289 - BERTopic - Dimensionality - Completed \u2713
+2025-12-28 20:53:34,289 - BERTopic - Cluster - Start clustering the reduced embeddings
+2025-12-28 20:54:24,046 - BERTopic - Cluster - Completed \u2713
+2025-12-28 20:54:24,050 - BERTopic - Representation - Fine-tuning topics using representation models.
+2025-12-28 20:54:26,443 - BERTopic - Representation - Completed \u2713
+2025-12-28 20:54:28,394 [INFO] [baseline] 拟合完成（mc=20）
+2025-12-28 20:54:36,413 [INFO] [baseline] 保存模型到 ablation_outputs\baseline\bertopic_results\topic_model.pkl
+2025-12-28 20:54:36,429 [INFO] [baseline] 保存主题信息到 ablation_outputs\baseline\bertopic_results\topic_info.csv
+2025-12-28 20:54:36,468 [INFO] [baseline] 保存文档-主题映射到 ablation_outputs\baseline\bertopic_results\topics.csv
+2025-12-28 20:54:36,468 [INFO] [baseline] 生成 2D UMAP 可视化...
+2025-12-28 20:54:51,562 [INFO] [baseline] 保存 2D UMAP 到 ablation_outputs\baseline\bertopic_results\embeddings_2d.csv
+2025-12-28 20:54:51,564 [INFO] [baseline] 主题数: 264, 噪声文档: 11251 (35.59%)
+2025-12-28 20:54:51,564 [WARNING] [baseline] 无法计算 C_v 分数: 'BERTopic' object has no attribute 'calculate_topic_model_quality'
+2025-12-28 20:54:51,766 [INFO] [baseline] \u2713 完成
+2025-12-28 20:54:51,766 [INFO] 
+======================================================================
+2025-12-28 20:54:51,766 [INFO] 消融实验对比
+2025-12-28 20:54:51,766 [INFO] ======================================================================
+
+2025-12-28 20:54:51,769 [INFO] 
+对比表已保存到: ablation_outputs\ablation_comparison_table.csv
+2025-12-28 20:55:01,614 [INFO] 详细结果已保存到: ablation_outputs\ablation_bertopic_results.json
+2025-12-28 20:55:01,614 [INFO] 
+\u2713 所有版本处理完成
+      版本  主题数  噪声文档   噪声比例 C_v 分数
+baseline  264 11251 35.59%    N/A

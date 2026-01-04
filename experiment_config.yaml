@@ -1,0 +1,15 @@
+calculate_probabilities: true
+embedding_model_name: all-MiniLM-L6-v2
+embeddings_dir: 05_stopwords/Experiment_C_Vector
+global_seed: 20251220
+hdbscan_metric: euclidean
+hdbscan_min_cluster_size: 39
+output_base_dir: ablation_outputs
+raw_data_dir: 01_raw_data
+top_n_words: 10
+umap_metric: cosine
+umap_min_dist: 0.1
+umap_n_components: 2
+umap_n_neighbors: 15
+umap_random_state: 42
+verbose: true

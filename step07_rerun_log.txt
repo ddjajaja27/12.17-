@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+================================================================================
+Step 07 主题建模 - 幽门螺杆菌 (helicobacter_pylori)
+================================================================================
+
+→ baseline: 开始建模...（这一步可能较慢）
+建模引擎不存在: _engine_bertopic.py
+  File "D:\12.17.幽门螺杆菌\step07_topic_model.py", line 207, in <module>
+    raise SystemExit(main())
+  File "D:\12.17.幽门螺杆菌\step07_topic_model.py", line 161, in main
+    print(f"  \u2717 建模失败：returncode={code}")
+UnicodeEncodeError: 'gbk' codec can't encode character '\u2717' in position 2: illegal multibyte sequence

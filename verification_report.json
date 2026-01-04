@@ -1,0 +1,9 @@
+{
+  "noise_stability": true,
+  "original_mean": "+0.034719",
+  "clean_mean": "-0.000000",
+  "clean_mean_abs": "7.549961e-09",
+  "reduction_ratio": "100.0%",
+  "similarity_distribution": true,
+  "projection_math": true
+}

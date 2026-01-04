@@ -1,0 +1,10 @@
+﻿Metric,Baseline,VPD,Improvement
+Topics,264,259,-5 (-1.89%)
+Noise documents,11251,10847,-404 (-3.59%)
+Noise ratio,0.3559,0.3431,-0.0128
+Noise percentage,35.59%,34.31%,-1.28%
+Avg topic size,77.14,80.19,+3.05 (+3.94%)
+Median topic size,49.0,50.0,+1.0 (+2.04%)
+Avg coherence,0.8786,0.8708,-0.0078 (-0.88%)
+Median coherence,0.9111,0.904,-0.0071 (-0.78%)
+kNN Mixing (k=5),0.8528,0.8533,+0.0005 (+0.06%)
